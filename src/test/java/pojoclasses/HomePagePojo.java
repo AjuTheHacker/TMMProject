@@ -12,21 +12,22 @@ public class HomePagePojo extends BaseClass1 {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindAll({ @FindBy(className = "site-header__icon site-header__cart"),
-			
-	@FindBy(xpath = "//a[@class='site-header__icon site-header__cart']"),
-	@FindBy(xpath="//a[contains(@class,'site-header__cart')]")
-	})
-	
+	@FindAll({ @FindBy(xpath = "(//a[@class='site-header__icon site-header__cart'])[1]"),
+
+			@FindBy(xpath = "//a[@class='site-header__icon site-header__cart']"),
+			@FindBy(xpath = "//a[contains(@class,'site-header__cart')]") })
+
 	private WebElement Add_To_Cart;
 
-	//@FindAll({ @FindBy(className = "site-header__icon site-header__cart"),
-			@FindBy(xpath = "//a[@class='site-header__icon site-header__account']")
-			//})
+	// @FindAll({ @FindBy(className = "site-header__icon site-header__cart"),
+	@FindBy(xpath = "//a[@class='site-header__icon site-header__account']")
+	// })
 	public WebElement Login_Account;
 
-	@FindAll({ @FindBy(className = "btn--link site-header__icon site-header__search-toggle js-drawer-open-top"),
-			@FindBy(xpath = "//button[@type='button'][@class='btn--link site-header__icon site-header__search-toggle js-drawer-open-top']") })
+	// @FindAll({ @FindBy(className = "btn--link site-header__icon
+	// site-header__search-toggle js-drawer-open-top"),
+	@FindBy(xpath = "//button[@type='button'][@class='btn--link site-header__icon site-header__search-toggle js-drawer-open-top']")
+	// })
 	public WebElement search_Box;
 
 	@FindAll({ @FindBy(xpath = "(//a[@class='site-nav__link site-nav__link--main'])[5]"),
@@ -166,9 +167,32 @@ public class HomePagePojo extends BaseClass1 {
 
 	@FindBy(xpath = "(//a[contains(text(),'The Meat Market Ph')])[1]")
 	public WebElement bottom_Link_The_Meat_Market_Ph;
-	
+
 	@FindBy(xpath = "(//a[contains(text(),'Powered by Shopify')])[1]")
 	public WebElement bottom_Link_Powered_by_Shopify;
+
+	// *****************************************************************
+	@FindAll({ @FindBy(xpath = "//a[contains(text(),'Whole Chicken')]"),
+			@FindBy(xpath = "(//a[@class='mobile-nav__sublist-link'])[1]") })
+	public WebElement chicken_Whole_Chicken;
+	@FindAll({ @FindBy(xpath = "//a[contains(text(),'Cut-ups')]"),
+			@FindBy(xpath = "(//a[@class='mobile-nav__sublist-link'])[2]") })
+	public WebElement chicken_cut_ups_Chicken;
+	
+
+	@FindAll({ @FindBy(xpath = "//a[contains(text(),'Breaded Chicken')]"),
+			@FindBy(xpath = "(//a[@class='mobile-nav__sublist-link'])[3]") })
+	public WebElement chicken_Breaded_Chicken;
+	@FindAll({ @FindBy(xpath = "//a[contains(text(),'Marinated Chicken')]"),
+			@FindBy(xpath = "(//a[@class='mobile-nav__sublist-link'])[4]") })
+	public WebElement chicken_Marinated_Chicken;
+	@FindAll({ @FindBy(xpath = "//a[contains(text(),'Pork')]"),
+			@FindBy(xpath = "(//a[@class='mobile-nav__sublist-link'])[5]") })
+	public WebElement Pork_prok;
+	@FindAll({ @FindBy(xpath = "//a[contains(text(),'Marinated Pork')]"),
+			@FindBy(xpath = "(//a[@class='mobile-nav__sublist-link'])[6]") })
+	public WebElement Pork_Marinated_Pork;
+	
 
 	public WebElement getAdd_To_Cart() {
 		return Add_To_Cart;
@@ -329,7 +353,28 @@ public class HomePagePojo extends BaseClass1 {
 	public WebElement getBottom_Link_Powered_by_Shopify() {
 		return bottom_Link_Powered_by_Shopify;
 	}
+	public WebElement getChicken_Whole_Chicken() {
+		return chicken_Whole_Chicken;
+	}
 
-	
+	public WebElement getChicken_cut_ups_Chicken() {
+		return chicken_cut_ups_Chicken;
+	}
+
+	public WebElement getChicken_Breaded_Chicken() {
+		return chicken_Breaded_Chicken;
+	}
+
+	public WebElement getChicken_Marinated_Chicken() {
+		return chicken_Marinated_Chicken;
+	}
+
+	public WebElement getPork_prok() {
+		return Pork_prok;
+	}
+
+	public WebElement getPork_Marinated_Pork() {
+		return Pork_Marinated_Pork;
+	}
 
 }

@@ -1,94 +1,1721 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="5" ignored="0" retried="15" total="55" passed="35">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31468" started-at="2022-06-16T14:42:42 IST" finished-at="2022-06-16T14:43:14 IST">
+  <suite name="Suite" duration-ms="331180" started-at="2022-06-18T20:22:41 IST" finished-at="2022-06-18T20:28:12 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31468" started-at="2022-06-16T14:42:42 IST" finished-at="2022-06-16T14:43:14 IST">
+    <test name="Test" duration-ms="331180" started-at="2022-06-18T20:22:41 IST" finished-at="2022-06-18T20:28:12 IST">
       <class name="test.HomePageTest">
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:test.HomePageTest@3e2e18f2]" name="lunchBrowser" is-config="true" duration-ms="17380" started-at="2022-06-16T14:42:42 IST" finished-at="2022-06-16T14:43:00 IST">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchBrowser" is-config="true" duration-ms="9609" started-at="2022-06-18T20:22:41 IST" finished-at="2022-06-18T20:22:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@3e2e18f2]" name="lunchURL" is-config="true" duration-ms="12755" started-at="2022-06-16T14:43:00 IST" finished-at="2022-06-16T14:43:13 IST">
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="6244" started-at="2022-06-18T20:22:51 IST" finished-at="2022-06-18T20:22:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchURL -->
-        <test-method status="FAIL" signature="Validate_navigating_from_Home_Page_from_Add_to_Cart_page()[pri:0, instance:test.HomePageTest@3e2e18f2]" name="Validate_navigating_from_Home_Page_from_Add_to_Cart_page" duration-ms="1134" started-at="2022-06-16T14:43:13 IST" finished-at="2022-06-16T14:43:14 IST">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_All_Products_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_All_Products_page" duration-ms="3727" started-at="2022-06-18T20:22:57 IST" finished-at="2022-06-18T20:23:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_All_Products_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="2" started-at="2022-06-18T20:23:01 IST" finished-at="2022-06-18T20:23:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2293" started-at="2022-06-18T20:23:01 IST" finished-at="2022-06-18T20:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_BECOME_A_RESELLER_UPDATED_Page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_BECOME_A_RESELLER_UPDATED_Page" duration-ms="2451" started-at="2022-06-18T20:23:03 IST" finished-at="2022-06-18T20:23:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_BECOME_A_RESELLER_UPDATED_Page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="2" started-at="2022-06-18T20:23:05 IST" finished-at="2022-06-18T20:23:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="3134" started-at="2022-06-18T20:23:05 IST" finished-at="2022-06-18T20:23:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Beef()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Beef" duration-ms="5303" started-at="2022-06-18T20:23:09 IST" finished-at="2022-06-18T20:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Beef -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:23:14 IST" finished-at="2022-06-18T20:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1846" started-at="2022-06-18T20:23:14 IST" finished-at="2022-06-18T20:23:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Bounty_Fresh_Honey_BUY_NOW_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Bounty_Fresh_Honey_BUY_NOW_page" duration-ms="2276" started-at="2022-06-18T20:23:16 IST" finished-at="2022-06-18T20:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Bounty_Fresh_Honey_BUY_NOW_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:23:18 IST" finished-at="2022-06-18T20:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1405" started-at="2022-06-18T20:23:18 IST" finished-at="2022-06-18T20:23:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Breaded_Chicken_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Breaded_Chicken_page" duration-ms="13652" started-at="2022-06-18T20:23:19 IST" finished-at="2022-06-18T20:23:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Breaded_Chicken_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:23:33 IST" finished-at="2022-06-18T20:23:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2620" started-at="2022-06-18T20:23:33 IST" finished-at="2022-06-18T20:23:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Easy_Recipes_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Easy_Recipes_page" duration-ms="4556" started-at="2022-06-18T20:23:36 IST" finished-at="2022-06-18T20:23:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Easy_Recipes_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:23:40 IST" finished-at="2022-06-18T20:23:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2052" started-at="2022-06-18T20:23:40 IST" finished-at="2022-06-18T20:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_FREQUENTLY_ASKED_QUESTIONS_Page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_FREQUENTLY_ASKED_QUESTIONS_Page" duration-ms="2140" started-at="2022-06-18T20:23:42 IST" finished-at="2022-06-18T20:23:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_FREQUENTLY_ASKED_QUESTIONS_Page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:23:44 IST" finished-at="2022-06-18T20:23:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1763" started-at="2022-06-18T20:23:44 IST" finished-at="2022-06-18T20:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Marinated_Chicken_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Marinated_Chicken_page" duration-ms="12511" started-at="2022-06-18T20:23:46 IST" finished-at="2022-06-18T20:23:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Marinated_Chicken_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:23:59 IST" finished-at="2022-06-18T20:23:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1691" started-at="2022-06-18T20:23:59 IST" finished-at="2022-06-18T20:24:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Marinated_Pork_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Marinated_Pork_page" duration-ms="13094" started-at="2022-06-18T20:24:00 IST" finished-at="2022-06-18T20:24:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Marinated_Pork_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:14 IST" finished-at="2022-06-18T20:24:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1745" started-at="2022-06-18T20:24:14 IST" finished-at="2022-06-18T20:24:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Produce()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Produce" duration-ms="2844" started-at="2022-06-18T20:24:15 IST" finished-at="2022-06-18T20:24:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Produce -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:18 IST" finished-at="2022-06-18T20:24:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1884" started-at="2022-06-18T20:24:18 IST" finished-at="2022-06-18T20:24:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_All_Products_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_All_Products_page" duration-ms="2433" started-at="2022-06-18T20:24:20 IST" finished-at="2022-06-18T20:24:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_All_Products_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:24:22 IST" finished-at="2022-06-18T20:24:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1429" started-at="2022-06-18T20:24:22 IST" finished-at="2022-06-18T20:24:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page" duration-ms="1732" retried="true" started-at="2022-06-18T20:24:24 IST" finished-at="2022-06-18T20:24:26 IST">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Compound class names not permitted
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'USER', ip: '192.168.1.11', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
-Driver info: driver.version: unknown]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'USER', ip: '192.168.1.11', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
-Driver info: driver.version: unknown
-at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
-at org.openqa.selenium.By.className(By.java:100)
-at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromShortFindBy(AbstractFindByBuilder.java:43)
-at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromFindBy(AbstractFindByBuilder.java:33)
-at org.openqa.selenium.support.FindAll$FindByBuilder.buildIt(FindAll.java:58)
-at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
-at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
-at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
-at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
-at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
-at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
-at pojoclasses.HomePagePojo.<init>(HomePagePojo.java:12)
-at test.HomePageTest.Validate_navigating_from_Home_Page_from_Add_to_Cart_page(HomePageTest.java:44)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page(HomePageTest.java:431)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Validate_navigating_from_Home_Page_from_Add_to_Cart_page -->
-        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@3e2e18f2]" name="time" is-config="true" duration-ms="2" started-at="2022-06-16T14:43:14 IST" finished-at="2022-06-16T14:43:14 IST">
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:26 IST" finished-at="2022-06-18T20:24:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- time -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.HomePageTest@3e2e18f2]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2022-06-16T14:43:14 IST" finished-at="2022-06-16T14:43:14 IST">
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1400" started-at="2022-06-18T20:24:26 IST" finished-at="2022-06-18T20:24:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page" duration-ms="1711" retried="true" started-at="2022-06-18T20:24:27 IST" finished-at="2022-06-18T20:24:29 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page(HomePageTest.java:431)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:24:29 IST" finished-at="2022-06-18T20:24:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1597" started-at="2022-06-18T20:24:29 IST" finished-at="2022-06-18T20:24:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page" duration-ms="1607" retried="true" started-at="2022-06-18T20:24:30 IST" finished-at="2022-06-18T20:24:32 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page(HomePageTest.java:431)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:32 IST" finished-at="2022-06-18T20:24:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1786" started-at="2022-06-18T20:24:32 IST" finished-at="2022-06-18T20:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="FAIL" signature="Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page" duration-ms="1409" started-at="2022-06-18T20:24:34 IST" finished-at="2022-06-18T20:24:35 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page(HomePageTest.java:431)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_BECOME_A_RESELLER_UPDATED_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="2" started-at="2022-06-18T20:24:35 IST" finished-at="2022-06-18T20:24:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1297" started-at="2022-06-18T20:24:35 IST" finished-at="2022-06-18T20:24:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_Beef_Page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_Beef_Page" duration-ms="1450" started-at="2022-06-18T20:24:36 IST" finished-at="2022-06-18T20:24:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_Beef_Page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:38 IST" finished-at="2022-06-18T20:24:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1539" started-at="2022-06-18T20:24:38 IST" finished-at="2022-06-18T20:24:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_Chicken_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_Chicken_page" duration-ms="2171" started-at="2022-06-18T20:24:39 IST" finished-at="2022-06-18T20:24:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_Chicken_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:42 IST" finished-at="2022-06-18T20:24:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2008" started-at="2022-06-18T20:24:42 IST" finished-at="2022-06-18T20:24:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_Easy_Recipes_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_Easy_Recipes_page" duration-ms="2210" started-at="2022-06-18T20:24:44 IST" finished-at="2022-06-18T20:24:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_Easy_Recipes_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:46 IST" finished-at="2022-06-18T20:24:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2357" started-at="2022-06-18T20:24:46 IST" finished-at="2022-06-18T20:24:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_FREQUENTLY_ASKED_QUESTIONS_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_FREQUENTLY_ASKED_QUESTIONS_page" duration-ms="3046" started-at="2022-06-18T20:24:48 IST" finished-at="2022-06-18T20:24:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_FREQUENTLY_ASKED_QUESTIONS_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:51 IST" finished-at="2022-06-18T20:24:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2330" started-at="2022-06-18T20:24:51 IST" finished-at="2022-06-18T20:24:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_Privacy_Policy_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_Privacy_Policy_page" duration-ms="2252" started-at="2022-06-18T20:24:54 IST" finished-at="2022-06-18T20:24:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_Privacy_Policy_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:56 IST" finished-at="2022-06-18T20:24:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1437" started-at="2022-06-18T20:24:56 IST" finished-at="2022-06-18T20:24:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_Produce_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_Produce_page" duration-ms="1733" started-at="2022-06-18T20:24:57 IST" finished-at="2022-06-18T20:24:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_Produce_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:24:59 IST" finished-at="2022-06-18T20:24:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1524" started-at="2022-06-18T20:24:59 IST" finished-at="2022-06-18T20:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_Prok_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_Prok_page" duration-ms="1912" started-at="2022-06-18T20:25:01 IST" finished-at="2022-06-18T20:25:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_Prok_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:25:02 IST" finished-at="2022-06-18T20:25:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1492" started-at="2022-06-18T20:25:02 IST" finished-at="2022-06-18T20:25:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Quick_links_Ready_to_Cook_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Quick_links_Ready_to_Cook_page" duration-ms="2101" started-at="2022-06-18T20:25:04 IST" finished-at="2022-06-18T20:25:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Quick_links_Ready_to_Cook_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:25:06 IST" finished-at="2022-06-18T20:25:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1232" started-at="2022-06-18T20:25:06 IST" finished-at="2022-06-18T20:25:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_READY_TO_COOK_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_READY_TO_COOK_page" duration-ms="1750" started-at="2022-06-18T20:25:07 IST" finished-at="2022-06-18T20:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_READY_TO_COOK_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:25:09 IST" finished-at="2022-06-18T20:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1448" started-at="2022-06-18T20:25:09 IST" finished-at="2022-06-18T20:25:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Ready_to_Cook()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Ready_to_Cook" duration-ms="1700" started-at="2022-06-18T20:25:11 IST" finished-at="2022-06-18T20:25:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Ready_to_Cook -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:25:12 IST" finished-at="2022-06-18T20:25:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2036" started-at="2022-06-18T20:25:12 IST" finished-at="2022-06-18T20:25:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_SHOP_BY_CATEGORY_SHOP_CHICKEN_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_SHOP_BY_CATEGORY_SHOP_CHICKEN_page" duration-ms="2355" started-at="2022-06-18T20:25:14 IST" finished-at="2022-06-18T20:25:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_SHOP_BY_CATEGORY_SHOP_CHICKEN_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="2" started-at="2022-06-18T20:25:17 IST" finished-at="2022-06-18T20:25:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2076" started-at="2022-06-18T20:25:17 IST" finished-at="2022-06-18T20:25:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_SHOP_BY_CATEGORY_SHOP_PORK_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_SHOP_BY_CATEGORY_SHOP_PORK_page" duration-ms="1839" started-at="2022-06-18T20:25:19 IST" finished-at="2022-06-18T20:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_SHOP_BY_CATEGORY_SHOP_PORK_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:25:21 IST" finished-at="2022-06-18T20:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1689" started-at="2022-06-18T20:25:21 IST" finished-at="2022-06-18T20:25:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_Whole_Chicken_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Whole_Chicken_page" duration-ms="12003" started-at="2022-06-18T20:25:22 IST" finished-at="2022-06-18T20:25:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Whole_Chicken_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:25:34 IST" finished-at="2022-06-18T20:25:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1677" started-at="2022-06-18T20:25:34 IST" finished-at="2022-06-18T20:25:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_cut_ups_Chicken_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_cut_ups_Chicken_page" duration-ms="12696" started-at="2022-06-18T20:25:36 IST" finished-at="2022-06-18T20:25:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_cut_ups_Chicken_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:25:49 IST" finished-at="2022-06-18T20:25:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1679" started-at="2022-06-18T20:25:49 IST" finished-at="2022-06-18T20:25:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Validate_navigating_from_Home_Page_from_prok_page()[pri:0, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_prok_page" duration-ms="2156" started-at="2022-06-18T20:25:50 IST" finished-at="2022-06-18T20:25:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_prok_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:25:52 IST" finished-at="2022-06-18T20:25:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1639" started-at="2022-06-18T20:25:52 IST" finished-at="2022-06-18T20:25:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_Image_Bounty_Fresh_Reseller()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_Image_Bounty_Fresh_Reseller" duration-ms="185" started-at="2022-06-18T20:25:54 IST" finished-at="2022-06-18T20:25:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_Image_Bounty_Fresh_Reseller -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:25:54 IST" finished-at="2022-06-18T20:25:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1966" started-at="2022-06-18T20:25:54 IST" finished-at="2022-06-18T20:25:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_Product_is_Display_Chicken_Breast()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_Product_is_Display_Chicken_Breast" duration-ms="271" started-at="2022-06-18T20:25:56 IST" finished-at="2022-06-18T20:25:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_Product_is_Display_Chicken_Breast -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:25:56 IST" finished-at="2022-06-18T20:25:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="2098" started-at="2022-06-18T20:25:56 IST" finished-at="2022-06-18T20:25:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_Product_is_Display_Chicken_Breast_Fillet_Skinless()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_Product_is_Display_Chicken_Breast_Fillet_Skinless" duration-ms="60" started-at="2022-06-18T20:25:59 IST" finished-at="2022-06-18T20:25:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_Product_is_Display_Chicken_Breast_Fillet_Skinless -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1873" started-at="2022-06-18T20:25:59 IST" finished-at="2022-06-18T20:26:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:25:59 IST" finished-at="2022-06-18T20:25:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_Product_is_Display_Chicken_Drumstick()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_Product_is_Display_Chicken_Drumstick" duration-ms="206" started-at="2022-06-18T20:26:01 IST" finished-at="2022-06-18T20:26:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_Product_is_Display_Chicken_Drumstick -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:26:01 IST" finished-at="2022-06-18T20:26:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1502" started-at="2022-06-18T20:26:01 IST" finished-at="2022-06-18T20:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_Product_is_Display_Chicken_Leg_Quarter()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_Product_is_Display_Chicken_Leg_Quarter" duration-ms="212" started-at="2022-06-18T20:26:02 IST" finished-at="2022-06-18T20:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_Product_is_Display_Chicken_Leg_Quarter -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:02 IST" finished-at="2022-06-18T20:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1653" started-at="2022-06-18T20:26:02 IST" finished-at="2022-06-18T20:26:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_Product_is_Display_Chicken_Thigh()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_Product_is_Display_Chicken_Thigh" duration-ms="104" started-at="2022-06-18T20:26:04 IST" finished-at="2022-06-18T20:26:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_Product_is_Display_Chicken_Thigh -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:04 IST" finished-at="2022-06-18T20:26:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1271" started-at="2022-06-18T20:26:04 IST" finished-at="2022-06-18T20:26:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_Product_is_Display_Chicken_Thigh_Fillet_Skinless()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_Product_is_Display_Chicken_Thigh_Fillet_Skinless" duration-ms="97" started-at="2022-06-18T20:26:05 IST" finished-at="2022-06-18T20:26:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_Product_is_Display_Chicken_Thigh_Fillet_Skinless -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:06 IST" finished-at="2022-06-18T20:26:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1718" started-at="2022-06-18T20:26:06 IST" finished-at="2022-06-18T20:26:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_BECOME_A_RESELLER()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_BECOME_A_RESELLER" duration-ms="888" retried="true" started-at="2022-06-18T20:26:07 IST" finished-at="2022-06-18T20:26:08 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Verify_in_Home_Page_lable_BECOME_A_RESELLER(HomePageTest.java:184)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_BECOME_A_RESELLER -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:08 IST" finished-at="2022-06-18T20:26:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1712" started-at="2022-06-18T20:26:08 IST" finished-at="2022-06-18T20:26:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_BECOME_A_RESELLER()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_BECOME_A_RESELLER" duration-ms="583" retried="true" started-at="2022-06-18T20:26:10 IST" finished-at="2022-06-18T20:26:10 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Verify_in_Home_Page_lable_BECOME_A_RESELLER(HomePageTest.java:184)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_BECOME_A_RESELLER -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:10 IST" finished-at="2022-06-18T20:26:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1324" started-at="2022-06-18T20:26:10 IST" finished-at="2022-06-18T20:26:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_BECOME_A_RESELLER()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_BECOME_A_RESELLER" duration-ms="198" retried="true" started-at="2022-06-18T20:26:12 IST" finished-at="2022-06-18T20:26:12 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Verify_in_Home_Page_lable_BECOME_A_RESELLER(HomePageTest.java:184)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_BECOME_A_RESELLER -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:12 IST" finished-at="2022-06-18T20:26:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1691" started-at="2022-06-18T20:26:12 IST" finished-at="2022-06-18T20:26:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="FAIL" signature="Verify_in_Home_Page_lable_BECOME_A_RESELLER()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_BECOME_A_RESELLER" duration-ms="405" started-at="2022-06-18T20:26:14 IST" finished-at="2022-06-18T20:26:14 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Verify_in_Home_Page_lable_BECOME_A_RESELLER(HomePageTest.java:184)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_BECOME_A_RESELLER -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:26:14 IST" finished-at="2022-06-18T20:26:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1568" started-at="2022-06-18T20:26:14 IST" finished-at="2022-06-18T20:26:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_lable_Bounty_Fresh_Honey()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Bounty_Fresh_Honey" duration-ms="230" started-at="2022-06-18T20:26:16 IST" finished-at="2022-06-18T20:26:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Bounty_Fresh_Honey -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:16 IST" finished-at="2022-06-18T20:26:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1359" started-at="2022-06-18T20:26:16 IST" finished-at="2022-06-18T20:26:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_Featured_Products()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Featured_Products" duration-ms="240" retried="true" started-at="2022-06-18T20:26:17 IST" finished-at="2022-06-18T20:26:18 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Verify_in_Home_Page_lable_Featured_Products(HomePageTest.java:206)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Featured_Products -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:26:18 IST" finished-at="2022-06-18T20:26:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1413" started-at="2022-06-18T20:26:18 IST" finished-at="2022-06-18T20:26:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_Featured_Products()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Featured_Products" duration-ms="253" retried="true" started-at="2022-06-18T20:26:19 IST" finished-at="2022-06-18T20:26:19 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Verify_in_Home_Page_lable_Featured_Products(HomePageTest.java:206)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Featured_Products -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="6" started-at="2022-06-18T20:26:19 IST" finished-at="2022-06-18T20:26:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1609" started-at="2022-06-18T20:26:19 IST" finished-at="2022-06-18T20:26:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_Featured_Products()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Featured_Products" duration-ms="308" retried="true" started-at="2022-06-18T20:26:21 IST" finished-at="2022-06-18T20:26:21 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Verify_in_Home_Page_lable_Featured_Products(HomePageTest.java:206)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Featured_Products -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:21 IST" finished-at="2022-06-18T20:26:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1376" started-at="2022-06-18T20:26:21 IST" finished-at="2022-06-18T20:26:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="FAIL" signature="Verify_in_Home_Page_lable_Featured_Products()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Featured_Products" duration-ms="170" started-at="2022-06-18T20:26:22 IST" finished-at="2022-06-18T20:26:23 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Verify_in_Home_Page_lable_Featured_Products(HomePageTest.java:206)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Featured_Products -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:26:23 IST" finished-at="2022-06-18T20:26:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1296" started-at="2022-06-18T20:26:23 IST" finished-at="2022-06-18T20:26:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_Quick_links()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Quick_links" duration-ms="10095" retried="true" started-at="2022-06-18T20:26:24 IST" finished-at="2022-06-18T20:26:34 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Quick links']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=//h2[text()='Quick links']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Quick links']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=//h2[text()='Quick links']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy17.getText(Unknown Source)
+at test.HomePageTest.Verify_in_Home_Page_lable_Quick_links(HomePageTest.java:337)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Quick_links -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:26:34 IST" finished-at="2022-06-18T20:26:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1444" started-at="2022-06-18T20:26:34 IST" finished-at="2022-06-18T20:26:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_Quick_links()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Quick_links" duration-ms="10047" retried="true" started-at="2022-06-18T20:26:36 IST" finished-at="2022-06-18T20:26:46 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Quick links']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=//h2[text()='Quick links']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Quick links']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=//h2[text()='Quick links']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy17.getText(Unknown Source)
+at test.HomePageTest.Verify_in_Home_Page_lable_Quick_links(HomePageTest.java:337)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Quick_links -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:46 IST" finished-at="2022-06-18T20:26:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1631" started-at="2022-06-18T20:26:46 IST" finished-at="2022-06-18T20:26:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Verify_in_Home_Page_lable_Quick_links()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Quick_links" duration-ms="10053" retried="true" started-at="2022-06-18T20:26:47 IST" finished-at="2022-06-18T20:26:57 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Quick links']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=//h2[text()='Quick links']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Quick links']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=//h2[text()='Quick links']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy17.getText(Unknown Source)
+at test.HomePageTest.Verify_in_Home_Page_lable_Quick_links(HomePageTest.java:337)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Quick_links -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:26:57 IST" finished-at="2022-06-18T20:26:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1803" started-at="2022-06-18T20:26:57 IST" finished-at="2022-06-18T20:26:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="FAIL" signature="Verify_in_Home_Page_lable_Quick_links()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_Quick_links" duration-ms="10058" started-at="2022-06-18T20:26:59 IST" finished-at="2022-06-18T20:27:09 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Quick links']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=//h2[text()='Quick links']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Quick links']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=//h2[text()='Quick links']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy17.getText(Unknown Source)
+at test.HomePageTest.Verify_in_Home_Page_lable_Quick_links(HomePageTest.java:337)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_Quick_links -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:27:09 IST" finished-at="2022-06-18T20:27:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1998" started-at="2022-06-18T20:27:09 IST" finished-at="2022-06-18T20:27:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="Verify_in_Home_Page_lable_SHOP_BY_CATEGORY()[pri:0, instance:test.HomePageTest@50de0926]" name="Verify_in_Home_Page_lable_SHOP_BY_CATEGORY" duration-ms="237" started-at="2022-06-18T20:27:11 IST" finished-at="2022-06-18T20:27:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_in_Home_Page_lable_SHOP_BY_CATEGORY -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="3" started-at="2022-06-18T20:27:11 IST" finished-at="2022-06-18T20:27:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1537" started-at="2022-06-18T20:27:11 IST" finished-at="2022-06-18T20:27:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page()[pri:35, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page" duration-ms="367" retried="true" started-at="2022-06-18T20:27:13 IST" finished-at="2022-06-18T20:27:13 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page(HomePageTest.java:451)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:27:13 IST" finished-at="2022-06-18T20:27:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="1937" started-at="2022-06-18T20:27:13 IST" finished-at="2022-06-18T20:27:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page()[pri:35, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page" duration-ms="28904" retried="true" started-at="2022-06-18T20:27:15 IST" finished-at="2022-06-18T20:27:44 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Powered by Shopify')])[1]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=(//a[contains(text(),'Powered by Shopify')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Powered by Shopify')])[1]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=(//a[contains(text(),'Powered by Shopify')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.collect(Unknown Source)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:490)
+at org.utilities.BaseClass1.javaScriptExecutorClickcall(BaseClass1.java:467)
+at test.HomePageTest.Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page(HomePageTest.java:448)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:27:44 IST" finished-at="2022-06-18T20:27:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="5622" started-at="2022-06-18T20:27:44 IST" finished-at="2022-06-18T20:27:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="SKIP" signature="Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page()[pri:35, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page" duration-ms="477" retried="true" started-at="2022-06-18T20:27:50 IST" finished-at="2022-06-18T20:27:50 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.HomePageTest.Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page(HomePageTest.java:451)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:test.HomePageTest@50de0926]" name="lunchURL" is-config="true" duration-ms="9557" started-at="2022-06-18T20:27:50 IST" finished-at="2022-06-18T20:28:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="0" started-at="2022-06-18T20:27:50 IST" finished-at="2022-06-18T20:27:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="FAIL" signature="Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page()[pri:35, instance:test.HomePageTest@50de0926]" name="Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page" duration-ms="12402" started-at="2022-06-18T20:28:00 IST" finished-at="2022-06-18T20:28:12 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Powered by Shopify')])[1]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=(//a[contains(text(),'Powered by Shopify')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Powered by Shopify')])[1]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'USER', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1111398798fe969ad7e5142c35ea69eb, findElement {using=xpath, value=(//a[contains(text(),'Powered by Shopify')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63384/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1111398798fe969ad7e5142c35ea69eb
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.collect(Unknown Source)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:490)
+at org.utilities.BaseClass1.javaScriptExecutorClickcall(BaseClass1.java:467)
+at test.HomePageTest.Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page(HomePageTest.java:448)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_navigating_from_Home_Page_from_Create_your_online_store_today_with_Shopify_page -->
+        <test-method status="PASS" signature="time()[pri:0, instance:test.HomePageTest@50de0926]" name="time" is-config="true" duration-ms="1" started-at="2022-06-18T20:28:12 IST" finished-at="2022-06-18T20:28:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.HomePageTest@50de0926]" name="closeBrowser" is-config="true" duration-ms="6" started-at="2022-06-18T20:28:12 IST" finished-at="2022-06-18T20:28:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
