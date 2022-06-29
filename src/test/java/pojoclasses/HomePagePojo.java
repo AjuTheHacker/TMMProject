@@ -122,7 +122,7 @@ public class HomePagePojo extends BaseClass1 {
 	public WebElement Bounty_Fresh_Honey_BUY_NOW;
 	// *************************************************************************
 
-	@FindBy(xpath = "//h2[text()='Quick links']")
+	@FindBy(xpath = "//p[text()='Quick links']")
 	public WebElement Quick_links;
 
 	@FindAll({ @FindBy(xpath = "//a[contains(text(),'All Products')]"),
